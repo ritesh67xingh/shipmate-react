@@ -1,0 +1,32 @@
+.navbar {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color: #F8F9FD;
+  }
+  
+  .navbar-brand {
+    left: -5rem;
+  }
+
+  .dollar-sign {
+    top: 0;
+    font-size: 1.4rem;
+    stroke-width: 1;
+    
+  }
+
+  .track-sign {
+    padding: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+  }
+  
+  
+  
+  .dropdown button{
+      margin-right: 3rem !important;
+  }

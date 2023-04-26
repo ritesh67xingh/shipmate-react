@@ -1,0 +1,222 @@
+.stepper-wrapper {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.input-hero-edit {
+    color: #9747FF;
+    font-size: 1.5rem;
+}
+
+.sidepane-header {
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.sidepane-header span{
+    font-weight: 100;
+}
+
+.sidepane-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #9747FF;
+    background-color: white;
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    height: 110%;
+}
+
+.nav-pills {
+    box-shadow: 14px 216px 86px rgba(21, 31, 72, 0.01), 8px 121px 73px rgba(21, 31, 72, 0.05), 3px 54px 54px rgba(21, 31, 72, 0.09), 1px 13px 30px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 120%;
+    height: 3rem;
+}
+
+.nav-pills .nav-link {
+    background: #EBE8FF;
+    border: 0;
+    border-radius: var(--bs-nav-pills-border-radius);
+    color: #868686;
+    height: 3rem;
+}
+
+.search-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(218, 218, 218, 0.4);
+    box-shadow: 39px 216px 88px rgba(0, 0, 0, 0.01), 22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09), 2px 14px 30px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+
+.value-type-best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 110px;
+    height: 40px;
+    background: #AFFFAD;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 120%;
+}
+
+.value-type-eco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 110px;
+    height: 40px;
+    background: #ADBFFF;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 120%;
+}
+
+.value-type-best span{
+    color: #05FF00;
+    font-size: 2rem;
+    padding: 0;
+
+}
+
+.value-type-eco span {
+    color: #446DFF;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.express-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 46px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    color: #FF0000;
+    margin-left: 1.2rem;
+}
+
+.est-trip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 120%;
+    color: #565656;
+    /* border-left: 1px solid rgba(177, 177, 177, 0.6); */
+}
+
+.search-card-right {
+    border-left: 1px solid rgba(163, 163, 163, 0.4);
+    padding-left: 2rem;
+}
+
+.trip-amt {
+    width: 100px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 120%;
+/* identical to box height, or 23px */
+
+text-align: center;
+
+color: #000000;
+}
+
+.trip-select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 34px;
+    gap: 10px;
+    width: 101px;
+    height: 39px;
+    cursor: pointer;
+    background: #6F57E9;
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+
+.trip-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 101px;
+    height: 13px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 120%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #363636;
+    margin-top: .5rem;
+}
+
+.location-detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: #565656;
+    margin-top: 1rem;
+}
+
+.frame-img-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #808080;
+}
+
+@media only screen and (max-width: 992px) {
+    .stepper-wrapper{
+        margin:0;
+    }
+}

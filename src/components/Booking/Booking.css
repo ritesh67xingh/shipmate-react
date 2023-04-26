@@ -1,0 +1,312 @@
+.booking-summary {
+    width: 100%;
+    height: 18rem;
+    background: #FFFFFF;
+    box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+}
+
+.booking-summary-header {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.summary-icon {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.summary-location {
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.summary-destination {
+    margin-left: 1rem;
+}
+
+.summary-plane-icon {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.summary-plane-text {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.weight {
+}
+
+.total-weight {
+    padding: 2rem;
+    height: 15rem;
+    background: #FFFFFF;
+    box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+}
+
+.total-weight-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 120%;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+.total-weight-icon {
+    padding: 1rem;
+    font-size: 6rem;
+}
+
+.total-weight-subtext {
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.load-pallet {
+    height: 15rem;
+    background: #FFFFFF;
+    box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+}
+
+.load-header {
+    padding: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+.load-quan {
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing: 0.39em;
+    color: #000000;
+
+}
+
+.pallet-icon {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.pallet-marking {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.pallet-dimen {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.seller-header {
+    width: 100%;
+    display: inline;
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+
+.seller-header span{
+    width: 100%;
+    display: inline;
+    font-weight: 600;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+
+.insurance-header {
+    width: 100%;
+    display: inline;
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+
+.insurance-header span{
+    width: 100%;
+    display: inline;
+    font-weight: 600;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+
+.seller-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.insurance-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.seller {
+    height: 12rem;
+    background: #FFFFFF;
+    box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+}
+
+.insurance {
+    height: 12rem;
+    background: #FFFFFF;
+    box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+}
+
+.price-box {
+    height: 40rem;
+    margin: 2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+}
+
+.price-box-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.price-box-badge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.02891px;
+    gap: 9.03px;
+    width: 104.82px;
+    height: 20px;
+    background: #E5E6E6;
+    border-radius: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.9318px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+.price-box-text-left {
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #808080;
+    padding: 1rem;
+}
+
+.price-box-text-left p{
+    display: inline;
+    color: #6F57E9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.price-box-text-right {
+    text-align: end;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #808080;
+    padding: 1rem;
+}
+
+.price-box-total-left {
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.price-box-total-right {
+    text-align: end;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.checkout-box {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 10rem;
+    width: 110%;
+}
+
+.checkout-button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 276px;
+    height: 48px;
+    background: #9747FF;
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+    color: #FFFFFF;
+}

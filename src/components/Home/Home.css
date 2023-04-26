@@ -1,0 +1,263 @@
+.hero-header {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.hero-tagline {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.hero-input {
+    color:#868686;
+    margin-top: 6rem;
+    background-color: white !important;
+    padding-top: .5rem;
+    box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01), 167px 302px 207px rgba(21, 31, 72, 0.05), 74px 134px 153px rgba(21, 31, 72, 0.09), 19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+}
+
+.icon {
+    display: flex;
+    top: 0;
+    font-size: 1.4rem;
+    height: 2rem;
+    width: 2rem;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.input {
+    color: #393939;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    height: 50px;
+    border: none;
+    background: none;
+}
+
+.input::placeholder{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #868686;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.input-origin {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.input-arrival {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.input-date {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.input-date span {
+    height: 1.4rem;
+    margin-right: .5rem;
+    border-right: .2px solid #B9B9B9 !important;
+}
+
+.input-load {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.input-load span {
+    height: 1.4rem;
+    margin-right: .5rem;
+    border-right: .2px solid #B9B9B9 !important;
+}
+
+.input-hero-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background: #9747FF;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 30%;    
+}
+
+.input-hero-button span {
+    height: 1.4rem;
+    padding-right: .5rem;
+    border-right: .2px solid #B9B9B9 !important;
+}
+
+.service-header {
+    margin-top: 6rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.service-card {
+    height: 100%;
+    padding: 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.service-card-top {
+    position: relative;
+    display: flex;
+    padding-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.2px solid #9E9E9E;
+}
+
+.service-card-icon {
+    left: 1rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+
+.service-card-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.service-card-content {
+    padding-top: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535353;
+}
+
+.sticky-image-wrapper{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    z-index: -100;
+}
+
+.sticky-image-wrapper img{
+    display: table;
+    position: relative;
+    margin: 0;
+    z-index: -100;
+}
+
+.help-button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+    position: fixed;
+    right: 8rem;
+    bottom: 8rem;
+    z-index: 100;
+    color: white;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #9747FF 0%, #7C62FF 100%);
+    box-shadow: 24px 51px 23px rgba(0, 0, 0, 0.01), 13px 29px 19px rgba(0, 0, 0, 0.05), 6px 13px 14px rgba(0, 0, 0, 0.09), 1px 3px 8px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 1400px) {
+    .service-card-top{
+        position: static;
+        justify-content: center;
+    }
+    .service-card-icon{
+        position: static;
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+    .res-space{
+        height: 10rem;
+    }
+    .help-button {
+        right: 4rem;
+        bottom: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .input-hero-button {
+        width: 50%;
+        float: right;
+        margin-top: 10%;
+    }
+    .service-card{
+        margin-left: 3rem;
+    }
+    .help-button {
+        right: 4rem;
+        bottom: 3rem;
+    }
+  }
+
+@media only screen and (max-width: 576px) {
+    .input-hero-button {
+        margin-top: 0;
+        width: 10%;
+        height: 3rem;
+        float: right;
+        margin-bottom: 1rem;
+    }
+
+    .service-card{
+        margin-left: 1.5rem;
+    }
+
+    .help-button {
+        font-size: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+        right: 1rem;
+        bottom: 1rem;
+    }
+
+  }
