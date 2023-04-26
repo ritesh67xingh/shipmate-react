@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shipmate-react/static/css/main.9bbe0b64.css",
+    "main.js": "/shipmate-react/static/js/main.5480bec9.js",
+    "static/js/787.be1c4d57.chunk.js": "/shipmate-react/static/js/787.be1c4d57.chunk.js",
+    "static/media/seller.png": "/shipmate-react/static/media/seller.51f4ecbbbad223b24cce.png",
+    "static/media/water_waves.png": "/shipmate-react/static/media/water_waves.91fab0884bfa55f9dc9b.png",
+    "index.html": "/shipmate-react/index.html",
+    "main.9bbe0b64.css.map": "/shipmate-react/static/css/main.9bbe0b64.css.map",
+    "main.5480bec9.js.map": "/shipmate-react/static/js/main.5480bec9.js.map",
+    "787.be1c4d57.chunk.js.map": "/shipmate-react/static/js/787.be1c4d57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bbe0b64.css",
+    "static/js/main.5480bec9.js"
+  ]
+}
